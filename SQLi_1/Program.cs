@@ -18,6 +18,7 @@ namespace SQLi_1
                 Login(user, pwd);
                 var pass = "1234";
                 var pass2 = "1234";
+                var pass3 = "1234";
             }
             catch  
             {
