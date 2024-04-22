@@ -15,6 +15,7 @@ namespace SQLi_1
             {
                 var user = args[0];
                 var pwd = Encrypt(args[1]);
+                pwd = "12345";
                 Login(user, pwd);
             }
             catch  
